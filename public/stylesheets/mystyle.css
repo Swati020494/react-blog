@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
+body {
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  width: 100%;
+  height: 60px;
+  background: #002B4F;
+  text-align: left;
+  padding: 10px 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.header img {
+  width: 40px;
+}
+
+.header .logo {
+  font-size: 36px;
+  color: #fff;
+  padding-top: 0;
+  margin-top: -10px;
+}
+
+.header .logo img {
+  max-height: 37px;
+}
+
+.header .logo span {
+  margin-right: 16px;
+}
+
+.header .logoText {
+  position: relative;
+  top: 5px;
+}
+
+.headerRight {
+  width: 70%;
+  float: right;
+  margin-top: -4px;
+}
+
+.groupIdHolder {
+  margin-right: 12px;
+  float: right;
+  margin-top: -10px;
+}
+
+.logo {
+  font-size: 36px;
+  font-weight: 100 !important;
+  color: #00C3FF;
+  padding-top: 30px;
+}
+
+.logo img {
+  max-height: 37px;
+}
+
+.logo span {
+  margin-right: 16px;
+}
+
+.logoText {
+  position: relative;
+  top: 5px;
+}
+
+.view-container {
+    margin-left: 96px;
+    margin-top: 60px;
+}
+
+.holder {
+    padding: 12px 48px;
+    display: flex;
+}
+
+.mainContent {
+    padding: 0px 36px;
+    margin-top: 15px;
+}
+
+.clearAfter:after {
+    display: block;
+    clear: both;
+    content: '';
+    height: 0px;
+    width: 0px;
+}
+
+.clearAfter1:after {
+    display: block;
+    clear: both;
+    content: '';
+    height: 0px;
+    width: 0px;
+}
